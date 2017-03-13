@@ -83,3 +83,4 @@
 - 4. Сделать реализацию консольного приложения через StAX
 - 5. Из списка участников сделать html таблицу 
 - 6. Вывести через XSLT преобразование html таблицу с группами заданного проекта
+  - [XSLT param](http://stackoverflow.com/questions/1667454/xsl-transformation-in-java-with-parameters)
