@@ -104,6 +104,11 @@
 ![image](https://cloud.githubusercontent.com/assets/13649199/23876457/ab01ff0a-084e-11e7-964f-49c90579fac9.png)
 
 #### Optional
-- Реализовать простую форму заргузки файла `payload.xml` в модуле `export` (через StAX) и вывод в лог импортированных пользователей (имя/email/flag)
+- Учитывая, что модулей в проекте предполагается много, измените структуру, чтобы с ней было удобнее работать.
+- Реализовать простую форму заргузки файла `payload.xml` в модуле `export` (через StAX) и вывод (в любом виде) импортированных пользователей (имя/email/flag)
   - для отображения взять любой шаблон  (JSP, [Thymeleaf](http://www.concretepage.com/thymeleaf/java-thymeleaf-example-getting-started-with-thymeleaf))  
-  - загрузку сделать через <a href="https://commons.apache.org/proper/commons-fileupload/">Commons FileUpload</a> (<a href="https://tomcat.apache.org/tomcat-8.0-doc/api/org/apache/tomcat/util/http/fileupload/package-summary.html">Tomcat fileupload copied and package renamed</a>)
+  - загрузку сделать через любую реализацию (Servlet 3.х предпочтительнее):
+   - <a href="https://commons.apache.org/proper/commons-fileupload/">Commons FileUpload</a>
+   - <a href="https://tomcat.apache.org/tomcat-8.0-doc/api/org/apache/tomcat/util/http/fileupload/package-summary.html">Tomcat fileupload copied and package renamed</a>
+   - <a href="http://docs.oracle.com/javaee/6/tutorial/doc/glraq.html">Java EE 6 Tutorial: fileupload example</a>
+   - <a href="https://gist.github.com/keesun/1604411">Servlet 3.0's FileUpload Sample</a>
