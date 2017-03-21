@@ -91,7 +91,7 @@
      - <a href="https://dzone.com/articles/new-in-spring-5-functional-web-framework">Spring 5: Functional Web Framework</a>
      - <a href="http://www.ofbizian.com/2014/09/camel-microservices.html">Apache Camel for Micro­service Architectures</a>
      
-### ![video](https://cloud.githubusercontent.com/assets/13649199/13672715/06dbc6ce-e6e7-11e5-81a9-04fbddb9e488.png) 7. <a href="">Многомодульный Maven проект</a>
+### ![video](https://cloud.githubusercontent.com/assets/13649199/13672715/06dbc6ce-e6e7-11e5-81a9-04fbddb9e488.png) 7. <a href="https://drive.google.com/file/d/0B9Ye2auQ_NsFelJqQ0d5WllaR0k">Многомодульный Maven проект</a>
 #### 3_5_multimodule.patch
 - <a href="https://github.com/JavaWebinar/topjava08/blob/doc/doc/lesson01.md#-4-maven">Maven на topjava</a>. Snapshot. <a href="http://maven.apache.org/guides/mini/guide-multiple-modules.html">The Reactor</a>.
 - <a href="http://stackoverflow.com/questions/17482320/maven-module-inheritance-vs-aggregation">maven module inheritance vs aggregation</a>
@@ -100,10 +100,15 @@
 
 ## ![hw](https://cloud.githubusercontent.com/assets/13649199/13672719/09593080-e6e7-11e5-81d1-5cb629c438ca.png) Домашнее задание HW3
 - Сделать структуру проекта согласно схеме. В модулях c `packaging=pom` кода нет, корневое `src` перенести в другие модули.
+   - Проверьте, что проект собирается! Учитывая, что модулей в проекте предполагается много, измените структуру, чтобы не дублировать  `maven-war-plugin`.
 
 ![image](https://cloud.githubusercontent.com/assets/13649199/23876457/ab01ff0a-084e-11e7-964f-49c90579fac9.png)
 
 #### Optional
-- Реализовать простую форму заргузки файла `payload.xml` в модуле `export` (через StAX) и вывод в лог импортированных пользователей (имя/email/flag)
+- Реализовать простую форму заргузки файла `payload.xml` в модуле `export` (через StAX) и вывод (в любом виде) импортированных пользователей (имя/email/flag)
   - для отображения взять любой шаблон  (JSP, [Thymeleaf](http://www.concretepage.com/thymeleaf/java-thymeleaf-example-getting-started-with-thymeleaf))  
-  - загрузку сделать через <a href="https://commons.apache.org/proper/commons-fileupload/">Commons FileUpload</a> (<a href="https://tomcat.apache.org/tomcat-8.0-doc/api/org/apache/tomcat/util/http/fileupload/package-summary.html">Tomcat fileupload copied and package renamed</a>)
+  - загрузку сделать через любую реализацию (Servlet 3.х предпочтительнее):
+    - <a href="https://commons.apache.org/proper/commons-fileupload/">Commons FileUpload</a>
+    - <a href="https://tomcat.apache.org/tomcat-8.0-doc/api/org/apache/tomcat/util/http/fileupload/package-summary.html">Tomcat fileupload copied and package renamed</a>
+    - <a href="http://docs.oracle.com/javaee/6/tutorial/doc/glraq.html">Java EE 6 Tutorial: fileupload example</a>
+    - <a href="https://gist.github.com/keesun/1604411">Servlet 3.0's FileUpload Sample</a>
