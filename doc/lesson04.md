@@ -55,9 +55,7 @@ mvn dependency:analyze
 ## ![video](https://cloud.githubusercontent.com/assets/13649199/13672715/06dbc6ce-e6e7-11e5-81a9-04fbddb9e488.png) 4. <a href="https://drive.google.com/open?id=0B9Ye2auQ_NsFSTR0cTl4NjE1OEE">Подключаем логирование с общими настройкам</a>
 #### 4_7_logging.patch
 > - Перенес подключение `logback-test.xml` из `parent-web` в `parent` (он используется в JUnit тестах, которые могут быть в любом модуле)
-
-#### 4_8_config_templates.patch
-> Добавил в корень проекта `config_templates` с копией конфигурации. 
+> - Добавил в корень проекта `config_templates` с копией конфигурации. 
 Общие файлы конфигурации заданы в maven parent как в `<masterjava.config>/apps/masterjava/config/</masterjava.config>`.
 **Нужно у себя в корне диска проекта создать этот каталог и положить в него содержимое `config_templates`**
 
@@ -82,7 +80,7 @@ mvn dependency:analyze
    - <a href="http://zetcode.com/db/jdbi/">JDBI tutorial</a> (<a href="http://www.dropwizard.io/0.7.1/docs/manual/jdbi.html">Dropwizard JDBI</a>),
 
 ### Tomcat Class Loader. Memory Leeks
-#### 4_9_fix_and_context.patch
+#### 4_8_fix_and_context.patch
 > Сделал небольшой fix и сохранил конфигурацию Tomcat `context.xml`, в котором конфигурируется `jdbc/masterjava`. **Ее надо будет положить в ${TOMCAT_HOME}/conf**   
 
 - <a href="https://tomcat.apache.org/tomcat-8.0-doc/class-loader-howto.html">Class Loader HOW-TO</a>
@@ -90,7 +88,7 @@ mvn dependency:analyze
 - <a href="https://www.youtube.com/watch?v=sSmQ6W-ovZE">Никита Сальников-Тарновский — Утечки памяти</a>
 
 ### ![video](https://cloud.githubusercontent.com/assets/13649199/13672715/06dbc6ce-e6e7-11e5-81a9-04fbddb9e488.png) 6. <a href="https://drive.google.com/file/d/0B9Ye2auQ_NsFa1JVQmRhQVdYdzA">Модуль `persist`</a>
-#### 4_10_persist.patch
+#### 4_9_persist.patch
 - <a href="http://stackoverflow.com/a/2322214/548473">Postgresql enum advantages/disadvantages</a>
 - <a href="http://stackoverflow.com/a/7834949/548473">ALTER Enum types since 9.1</a>
 - <a href="https://gitlab.com/rbertoncelj/jdbi-entity-mapper">Simple EntityMapper with `@Column` support</a>
