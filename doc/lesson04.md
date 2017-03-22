@@ -57,7 +57,7 @@ mvn dependency:analyze
 > - Перенес подключение `logback-test.xml` из `parent-web` в `parent` (он используется в JUnit тестах, которые могут быть в любом модуле)
 > - Добавил в корень проекта `config_templates` с копией конфигурации. 
 Общие файлы конфигурации заданы в maven parent как в `<masterjava.config>/apps/masterjava/config/</masterjava.config>`.
-**Нужно у себя в корне диска проекта создать этот каталог и положить в него содержимое `config_templates`**
+**Нужно у себя в корне диска создать этот каталог и положить в него содержимое `config_templates`**
 
 - <a href="http://www.slf4j.org/legacy.html">Добавление зависимостей логирования</a>
 - <a href="https://www.mkyong.com/logging/logback-xml-example">logback.xml Example</a>
