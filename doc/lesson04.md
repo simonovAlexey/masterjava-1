@@ -8,6 +8,9 @@
 #### 4_1_HW3_pom_structure.patch
 > Вместо включения всех модулей в главный аггрегатор, сделал еще 2 аггрегатных модуля 2го уровня: `web` и `services` 
 
+#### ![video](https://cloud.githubusercontent.com/assets/13649199/13672715/06dbc6ce-e6e7-11e5-81a9-04fbddb9e488.png) [Вопрос: как разбивать приложение на модули](https://drive.google.com/open?id=0B9Ye2auQ_NsFbFFpWWFzRWE3ekU)
+- [IDEA DSM plugin](https://www.jetbrains.com/help/idea/2016.2/analyzing-dependencies-using-dsm.html)
+
 ### ![video](https://cloud.githubusercontent.com/assets/13649199/13672715/06dbc6ce-e6e7-11e5-81a9-04fbddb9e488.png) 2. <a href="https://drive.google.com/open?id=0B9Ye2auQ_NsFMHNBcVZ3eHlqblk">Реализация модуля export: Thymeleaf и Upload</a>
 #### 4_2_HW3_thymeleaf_upload.patch
 #### 4_3_HW3_upload_servlet3.patch
