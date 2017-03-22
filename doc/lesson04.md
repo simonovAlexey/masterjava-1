@@ -9,8 +9,6 @@
 > Вместо включения всех модулей в главный аггрегатор, сделал еще 2 аггрегатных модуля 2го уровня: `web` и `services` 
 
 #### ![video](https://cloud.githubusercontent.com/assets/13649199/13672715/06dbc6ce-e6e7-11e5-81a9-04fbddb9e488.png) [Вопрос: как разбивать приложение на модули](https://drive.google.com/open?id=0B9Ye2auQ_NsFbFFpWWFzRWE3ekU)
-- [IDEA DSM plugin](https://www.jetbrains.com/help/idea/2016.2/analyzing-dependencies-using-dsm.html)
-
 ### ![video](https://cloud.githubusercontent.com/assets/13649199/13672715/06dbc6ce-e6e7-11e5-81a9-04fbddb9e488.png) 2. <a href="https://drive.google.com/open?id=0B9Ye2auQ_NsFMHNBcVZ3eHlqblk">Реализация модуля export: Thymeleaf и Upload</a>
 #### 4_2_HW3_thymeleaf_upload.patch
 #### 4_3_HW3_upload_servlet3.patch
@@ -56,8 +54,10 @@ mvn dependency:analyze
 
 ## ![video](https://cloud.githubusercontent.com/assets/13649199/13672715/06dbc6ce-e6e7-11e5-81a9-04fbddb9e488.png) 4. <a href="https://drive.google.com/open?id=0B9Ye2auQ_NsFSTR0cTl4NjE1OEE">Подключаем логирование с общими настройкам</a>
 #### 4_7_logging.patch
-> - Добавил в корень проекта `config_templates` с копией конфигурации.
 > - Перенес подключение `logback-test.xml` из `parent-web` в `parent` (он используется в JUnit тестах, которые могут быть в любом модуле)
+
+#### 4_8_config_templates.patch
+> - Добавил в корень проекта `config_templates` с копией конфигурации.
 
 - <a href="http://www.slf4j.org/legacy.html">Добавление зависимостей логирования</a>
 - <a href="https://www.mkyong.com/logging/logback-xml-example">logback.xml Example</a>
@@ -75,9 +75,30 @@ mvn dependency:analyze
 - <a href="https://habrahabr.ru/company/luxoft/blog/280784/#ii5">Библиотеки для работа с JDBC</a>
 - <a href="http://www.mybatis.org/mybatis-3/">MyBatis</a>, <a href="http://sivalabs.in/2012/10/mybatis-tutorial-part-2-crud-operations-using-annotations/">MyBatis tutorial (CRUD)</a>
 - <a href="https://commons.apache.org/proper/commons-dbutils/">Commons DbUtils</a>, <a href="https://habrahabr.ru/post/183204/">доработка commons-dbutils</a>
-- <a href="http://jdbi.org/">JDBI</a>, <a href="http://zetcode.com/db/jdbi/">JDBI tutorial</a> (<a href="http://www.dropwizard.io/0.7.1/docs/manual/jdbi.html">Dropwizard JDBI</a>),
+- <a href="http://stackoverflow.com/a/6258793/548473">jDBI sample</a>
+   - <a href="http://jdbi.org/">JDBI</a>
+   - <a href="http://zetcode.com/db/jdbi/">JDBI tutorial</a> (<a href="http://www.dropwizard.io/0.7.1/docs/manual/jdbi.html">Dropwizard JDBI</a>),
 
 ### Tomcat Class Loader. Memory Leeks
+#### 4_9_fix_and_context.patch
 - <a href="https://tomcat.apache.org/tomcat-8.0-doc/class-loader-howto.html">Class Loader HOW-TO</a>
 - Библиотеки vs Frameworks и Tomcat Common Lib. <a href="https://habrahabr.ru/post/222443/">Memory Leaks</a>. 
 - <a href="https://www.youtube.com/watch?v=sSmQ6W-ovZE">Никита Сальников-Тарновский — Утечки памяти</a>
+
+### ![video](https://cloud.githubusercontent.com/assets/13649199/13672715/06dbc6ce-e6e7-11e5-81a9-04fbddb9e488.png) 6. <a href="https://drive.google.com/file/d/0B9Ye2auQ_NsFa1JVQmRhQVdYdzA">Модуль `persist`</a>
+#### 4_10_persist.patch
+- <a href="http://stackoverflow.com/a/2322214/548473">Postgresql enum advantages/disadvantages</a>
+- <a href="http://stackoverflow.com/a/7834949/548473">ALTER Enum types since 9.1</a>
+- <a href="https://gitlab.com/rbertoncelj/jdbi-entity-mapper">Simple EntityMapper with `@Column` support</a>
+
+### Домашнее задание
+- Сделать импорт всех валидных пользователей (без ссылок на города и группы)
+- Вывести сообщение о результате импорта: количество успешных/неуспешных вставок и информация, *по которой из исходного xml можно повторить импорт неуспешных пользователей* 
+- Сохранить всех валидных импортированных пользователей в модуле export в базе (записи просто добавляются в таблицу `users`). 
+- Сделать отображение первых 20 пользователей в модуле web
+
+#### Optional
+- Сделать импорт пользователей в несколько потоков:
+  - делать вставку группами (chunk) в [транзакции](http://manikandan-k.github.io/2015/05/10/Transactions_in_jdbi.html) и [batch моде](http://jdbi.org/sql_object_api_batching/). Количестово пользователей в chunk принимать с UI как параметр.
+  - дополнительная информация:
+    - <a href="http://stackoverflow.com/a/12207237/548473">Speed up insertion performance in PostgreSQL</a>
