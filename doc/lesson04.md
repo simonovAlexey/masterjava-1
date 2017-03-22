@@ -56,7 +56,6 @@ mvn dependency:analyze
 > - Добавил в корень проекта `config_templates` с копией конфигурации.
 > - Перенес подключение `logback-test.xml` из `parent-web` в `parent` (он используется в JUnit тестах, которые могут быть в любом модуле)
 
-
 - <a href="http://www.slf4j.org/legacy.html">Добавление зависимостей логирования</a>
 - <a href="https://www.mkyong.com/logging/logback-xml-example">logback.xml Example</a>
 - Справочник:
@@ -65,3 +64,18 @@ mvn dependency:analyze
   - <a href="http://habrahabr.ru/post/113145/">Java Logging: история кошмара</a>
   - <a href="http://skipy.ru/useful/logging.html">Ведение лога приложения</a>
   - <a href="http://logging.apache.org/log4j/2.x/index.html">Log4j</a>, <a href="http://logback.qos.ch/">Logback</a>
+
+## ![video](https://cloud.githubusercontent.com/assets/13649199/13672715/06dbc6ce-e6e7-11e5-81a9-04fbddb9e488.png) 5.<a href="https://drive.google.com/open?id=0B9Ye2auQ_NsFelc3S1RTWEx6VjA">Библиотеки и фреймворки для работы с JDBC.</a>
+
+### Выбор lightweight JDBC helper library
+- <a href="http://stackoverflow.com/questions/7137929/lightweight-jdbc-helper-library-alternative-to-apache-commons-dbutils">Lightweight JDBC helper library</a>
+- <a href="https://habrahabr.ru/company/luxoft/blog/280784/#ii5">Библиотеки для работа с JDBC</a>
+- <a href="http://www.mybatis.org/mybatis-3/">MyBatis</a>
+- <a href="http://sivalabs.in/2012/10/mybatis-tutorial-part-2-crud-operations-using-annotations/">MyBatis tutorial (CRUD)</a>
+- <a href="https://commons.apache.org/proper/commons-dbutils/">Commons DbUtils</a>, <a href="https://habrahabr.ru/post/183204/">доработка commons-dbutils</a>
+- <a href="http://jdbi.org/">JDBI</a>, <a href="http://zetcode.com/db/jdbi/">JDBI tutorial</a> (<a href="http://www.dropwizard.io/0.7.1/docs/manual/jdbi.html">Dropwizard JDBI</a>),
+
+### Tomcat Class Loader. Memory Leeks
+- <a href="https://tomcat.apache.org/tomcat-8.0-doc/class-loader-howto.html">Class Loader HOW-TO</a>
+- Библиотеки vs Frameworks и Tomcat Common Lib. <a href="https://habrahabr.ru/post/222443/">Memory Leaks</a>. 
+- <a href="https://www.youtube.com/watch?v=sSmQ6W-ovZE">Никита Сальников-Тарновский — Утечки памяти</a>
