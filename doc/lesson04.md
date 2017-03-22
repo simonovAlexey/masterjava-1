@@ -57,7 +57,9 @@ mvn dependency:analyze
 > - Перенес подключение `logback-test.xml` из `parent-web` в `parent` (он используется в JUnit тестах, которые могут быть в любом модуле)
 
 #### 4_8_config_templates.patch
-> - Добавил в корень проекта `config_templates` с копией конфигурации.
+> Добавил в корень проекта `config_templates` с копией конфигурации. 
+Общие файлы конфигурации заданы в maven parent как в `<masterjava.config>/apps/masterjava/config/</masterjava.config>`.
+**Нужно у себя в корне диска проекта создать этот каталог и положить в него содержимое `config_templates`**
 
 - <a href="http://www.slf4j.org/legacy.html">Добавление зависимостей логирования</a>
 - <a href="https://www.mkyong.com/logging/logback-xml-example">logback.xml Example</a>
@@ -81,6 +83,8 @@ mvn dependency:analyze
 
 ### Tomcat Class Loader. Memory Leeks
 #### 4_9_fix_and_context.patch
+> Сделал небольшой fix и сохранил конфигурацию Tomcat `context.xml`, в котором конфигурируется `jdbc/masterjava`. **Ее надо будет положить в ${TOMCAT_HOME}/conf**   
+
 - <a href="https://tomcat.apache.org/tomcat-8.0-doc/class-loader-howto.html">Class Loader HOW-TO</a>
 - Библиотеки vs Frameworks и Tomcat Common Lib. <a href="https://habrahabr.ru/post/222443/">Memory Leaks</a>. 
 - <a href="https://www.youtube.com/watch?v=sSmQ6W-ovZE">Никита Сальников-Тарновский — Утечки памяти</a>
