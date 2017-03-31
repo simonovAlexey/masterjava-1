@@ -29,7 +29,7 @@
 - <a href="http://stackoverflow.com/questions/3852091/is-it-safe-to-use-project-lombok">Drawbacks</a>, <a href="http://stackoverflow.com/a/29771875/548473">Call super constructor</a>
 - <a href="https://www.sitepoint.com/declutter-pojos-with-lombok-tutorial/">Declutter Your POJOs with Lombok</a>
 
-#### 5_7_fix
+#### [5_7_fix.patch](https://drive.google.com/open?id=0B9Ye2auQ_NsFV1djNUxkUkl1c28)
 Небольшие коррекции и фикс: в `UserExport.process` нельзя делать `chunk.clean()`, тк этот список используется для вставки.
 
 ## Домашнее задание
