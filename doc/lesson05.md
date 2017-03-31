@@ -5,14 +5,12 @@
 ## ![hw](https://cloud.githubusercontent.com/assets/13649199/13672719/09593080-e6e7-11e5-81d1-5cb629c438ca.png) Разбор домашнего задания HW4
 
 ## ![video](https://cloud.githubusercontent.com/assets/13649199/13672715/06dbc6ce-e6e7-11e5-81a9-04fbddb9e488.png) 1. [Сохранение в базу в batch-моде с обработкой конфликтов](https://drive.google.com/file/d/0B9Ye2auQ_NsFZEJwR2ZqMEdVRG8)
-
 #### 5_1_HW4_export_chunk.patch
 #### 5_2_HW4_webapp_users.patch
 #### 5_3_HW4_already_present.patch
+## ![video](https://cloud.githubusercontent.com/assets/13649199/13672715/06dbc6ce-e6e7-11e5-81a9-04fbddb9e488.png) 1. [Вставка в несколько потоков](https://drive.google.com/file/d/0B9Ye2auQ_NsFek5PYTdQbjBlUU0)
 #### 5_4_HW4_parallel.patch
-
 ----------------
-
 ## ![video](https://cloud.githubusercontent.com/assets/13649199/13672715/06dbc6ce-e6e7-11e5-81a9-04fbddb9e488.png) 3. <a href="https://drive.google.com/open?id=0B9Ye2auQ_NsFZ3VZMlFITkk0LXM">Конфигурирование приложения</a>
 #### 5_5_typesafe_config.patch
 > Не забудте положить `persist.conf` в `/apps/masterjava/config` (или убрать `required` из `persist\src\main\resources\persist.conf`) 
@@ -30,6 +28,9 @@
 - <a href="https://github.com/mplushnikov/lombok-intellij-plugin">Подключение к IDEA</a>
 - <a href="http://stackoverflow.com/questions/3852091/is-it-safe-to-use-project-lombok">Drawbacks</a>, <a href="http://stackoverflow.com/a/29771875/548473">Call super constructor</a>
 - <a href="https://www.sitepoint.com/declutter-pojos-with-lombok-tutorial/">Declutter Your POJOs with Lombok</a>
+
+#### 5_7_fix
+Небольшие коррекции и фикс: в `UserExport.process` нельзя делать `chunk.clean()`, тк этот список используется для вставки.
 
 ## Домашнее задание
 - добавить в DB города, группы и проекты
