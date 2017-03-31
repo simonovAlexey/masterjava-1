@@ -102,4 +102,6 @@ mvn dependency:analyze
 #### Optional
 - cделать сохранение пользователей чанками в несколько потоков (по мере чтения xml). Результат импорта: пользователи, уже присутствующие в базе и диапазоны (начальный-конечный `email`) в чанке,
 если его обработка закончилась с ошибкой + причина отказа в импорте для каждого пользователя/диапазона. 
-  - дополнительная информация: <a href="http://stackoverflow.com/a/12207237/548473">speed up insertion performance in PostgreSQL</a>
+- дополнительно
+  - [Speed up insertion performance in PostgreSQL](http://stackoverflow.com/a/12207237/548473)
+  - [COPY — копировать данные между файлом и таблицей](https://postgrespro.ru/docs/postgrespro/9.6/sql-copy)
