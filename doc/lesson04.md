@@ -89,6 +89,7 @@ mvn dependency:analyze
 - <a href="https://www.youtube.com/watch?v=sSmQ6W-ovZE">Никита Сальников-Тарновский — Утечки памяти</a>
 
 ### ![video](https://cloud.githubusercontent.com/assets/13649199/13672715/06dbc6ce-e6e7-11e5-81a9-04fbddb9e488.png) 6. <a href="https://drive.google.com/file/d/0B9Ye2auQ_NsFa1JVQmRhQVdYdzA">Модуль `persist`</a>
+**ВНИМАНИЕ! перед накаткой патча создейте в корне проекта каталоги `persist\src\main` и `persist\src\test`, иначе патч промахивается.**
 #### 4_9_persist.patch
 - <a href="http://stackoverflow.com/a/2322214/548473">Postgresql enum advantages/disadvantages</a>
 - <a href="http://stackoverflow.com/a/7834949/548473">ALTER Enum types since 9.1</a>
