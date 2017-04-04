@@ -12,7 +12,7 @@
 #### 5_4_HW4_parallel.patch
 ----------------
 ## ![video](https://cloud.githubusercontent.com/assets/13649199/13672715/06dbc6ce-e6e7-11e5-81a9-04fbddb9e488.png) 3. <a href="https://drive.google.com/open?id=0B9Ye2auQ_NsFZ3VZMlFITkk0LXM">Конфигурирование приложения</a>
-ВНИМАНИЕ! перед накаткой патча создейте в `common` каталог `\src` , иначе патч промахивается (от корня `common\src`).
+**ВНИМАНИЕ! перед накаткой патча создейте в `common` каталог `\src` , иначе патч промахивается (от корня `common\src`).**
 #### 5_5_typesafe_config.patch
 > Не забудте положить `persist.conf` в `/apps/masterjava/config` (или убрать `required` из `persist\src\main\resources\persist.conf`) 
 
