@@ -7,6 +7,7 @@
 ## ![video](https://cloud.githubusercontent.com/assets/13649199/13672715/06dbc6ce-e6e7-11e5-81a9-04fbddb9e488.png) 1. [Сохранение в базу в batch-моде с обработкой конфликтов](https://drive.google.com/file/d/0B9Ye2auQ_NsFZEJwR2ZqMEdVRG8)
 #### 5_1_HW4_export_chunk.patch
 #### 5_2_HW4_webapp_users.patch
+**!! если патч применяется криво- создате каталог `web\webapp\src`**
 #### 5_3_HW4_already_present.patch
 ## ![video](https://cloud.githubusercontent.com/assets/13649199/13672715/06dbc6ce-e6e7-11e5-81a9-04fbddb9e488.png) 1. [Вставка в несколько потоков](https://drive.google.com/file/d/0B9Ye2auQ_NsFek5PYTdQbjBlUU0)
 #### 5_4_HW4_parallel.patch
