@@ -31,8 +31,13 @@
 - <a href="http://stackoverflow.com/questions/3852091/is-it-safe-to-use-project-lombok">Drawbacks</a>, <a href="http://stackoverflow.com/a/29771875/548473">Call super constructor</a>
 - <a href="https://www.sitepoint.com/declutter-pojos-with-lombok-tutorial/">Declutter Your POJOs with Lombok</a>
 
+### ![correction](https://cloud.githubusercontent.com/assets/13649199/13672935/ef09ec1e-e6e7-11e5-9f79-d1641c05cbe6.png) Правки
+
 #### [5_7_fix.patch](https://drive.google.com/open?id=0B9Ye2auQ_NsFV1djNUxkUkl1c28)
 Небольшие коррекции и фикс: в `UserExport.process` нельзя делать `chunk.clean()`, тк этот список используется для вставки.
+
+#### [5_8_fix_share_ThymeleafListener.patch](https://drive.google.com/open?id=0B9Ye2auQ_NsFY19DYWFnUGN4TEE)
+- Расшарил ThymeleafListener в common-web и использую в webapp `UsersServlet`
 
 ## Домашнее задание
 - добавить в DB города, группы и проекты
