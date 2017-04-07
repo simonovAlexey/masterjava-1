@@ -43,6 +43,7 @@ http://www.liquibase.org/quickstart.html
 
 
 ## ![video](https://cloud.githubusercontent.com/assets/13649199/13672715/06dbc6ce-e6e7-11e5-81a9-04fbddb9e488.png) 4. <a href="https://drive.google.com/open?id=0B9Ye2auQ_NsFSkh4eWtSb2I4YUU">Веб-сервисы</a>
+#### Apply 6_5_web_services.patch
 
 - <a href="https://ru.wikipedia.org/wiki/Веб-служба">Веб-служба</a>. <a href="https://en.wikipedia.org/wiki/Web_service">Web service</a>
 - Примеры SOAP:
@@ -71,7 +72,6 @@ http://www.liquibase.org/quickstart.html
 - <a href="http://docs.spring.io/spring-ws/docs/2.2.0.RELEASE/reference/htmlsingle/#message-factories">Spring-WS Message Factories</a>
 
 #### Имплементируем Mail Service
-#### Apply 6_5_web_services.patch
 - <a href="http://www.mkyong.com/tutorials/jax-ws-tutorials/">JAX-WS Tutorial</a>
    - <a href="http://jax-ws.java.net">GlassFish » Metro » JAX-WS</a>
    - MailService <a href="http://localhost:8080/mail/mailService?wsdl">WSDL</a> / <a href="http://localhost:8080/mail/mailService?xsd=1">XSD</a>
