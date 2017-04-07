@@ -1,5 +1,7 @@
 # Онлайн проекта  <a href="https://github.com/JavaWebinar/masterjava">Masterjava</a>.
 
+**Внимание!! Обновите проект или [накатите 2 fix-а прошлого урока](https://github.com/JavaWebinar/masterjava/blob/doc/doc/lesson05.md#-Правки)**
+
 ## [Материалы занятия (скачать все патчи можно через Download папки patch)](https://drive.google.com/drive/u/0/folders/0B9Ye2auQ_NsFVEJBS3VzVnBtMnc) 
 
 
