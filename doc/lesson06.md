@@ -11,7 +11,7 @@
   - [Downloads](http://www.liquibase.org/download/index.html)
   - [Run migration](http://www.liquibase.org/quickstart.html)
 
-Можно запускать скрип миграции много раз, по истории смотрится, чтобы патч накатился только 1 раз.
+Можно запускать скрип миграции много раз, по истории смотрится, чтобы каждый ChangeSet накатился только 1 раз.
 
 #### Apply 6_2_HW5_dao_test.patch
 
