@@ -6,7 +6,8 @@
 
 ### ![video](https://cloud.githubusercontent.com/assets/13649199/13672715/06dbc6ce-e6e7-11e5-81a9-04fbddb9e488.png) 1. <a href="https://drive.google.com/open?id=0B9Ye2auQ_NsFOFFNYzB6VGdma2c">Структура многомодульного проекта</a>
 #### 4_1_HW3_pom_structure.patch
-> Вместо включения всех модулей в главный аггрегатор, сделал еще 2 аггрегатных модуля 2го уровня: `web` и `services` 
+> - Вместо включения всех модулей в главный аггрегатор, сделал еще 2 аггрегатных модуля 2го уровня: `web` и `services` 
+> - `testResources` перенес в главный `parent`, тк. JUnit тесты могут быть у любого модуля
 
 #### ![video](https://cloud.githubusercontent.com/assets/13649199/13672715/06dbc6ce-e6e7-11e5-81a9-04fbddb9e488.png) [Вопрос: как разбивать приложение на модули](https://drive.google.com/open?id=0B9Ye2auQ_NsFTm5FX1ZZeTFpYU0)
 ### ![video](https://cloud.githubusercontent.com/assets/13649199/13672715/06dbc6ce-e6e7-11e5-81a9-04fbddb9e488.png) 2. <a href="https://drive.google.com/open?id=0B9Ye2auQ_NsFMHNBcVZ3eHlqblk">Реализация модуля export: Thymeleaf и Upload</a>
