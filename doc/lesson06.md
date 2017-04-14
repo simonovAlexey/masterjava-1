@@ -93,7 +93,7 @@ http://www.liquibase.org/quickstart.html
    mail.fromName: MasterJava
 ```
 - Сохранят результат отправки писем в DB, разместив логику в модуле `mail-service` (пока все делаем в `MailSender`)
-- Протестировать отправку почты через SoapUI
+- Протестировать отправку почты через SoapUI и/или `MailServiceClient`
 
 #### Optional
 - добавить в модуле `export` импорт и сохранение в базу групп и проектов (только добавление без удаления/модификации)
