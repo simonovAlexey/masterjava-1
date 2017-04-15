@@ -53,10 +53,7 @@
 
 ## Домашнее задание
 - Расшарить wsdl для всех модей в `\apps\masterjava\config\wsdl`   
-- Реализовать в `MailService` два метода:
-  - `sendBulkMail` для отправки через `MailSender.sendBulk`
-  - `sendIndividualMails` для отправки через `MailServiceExecutor.sendIndividual`  
-- Обновить `mailService.wsdl` и протестировать работу сервиса
+- Обновить `mailService.wsdl` в соответствии с реализацией (+пофиксить проблемы) и протестировать работу сервиса
 
 ### Optional
 - Сделать в модуле `web` простой интерфейс для выбора пользователей из таблицы и отправки им почты
