@@ -12,7 +12,7 @@
 
 ### ![video](https://cloud.githubusercontent.com/assets/13649199/13672715/06dbc6ce-e6e7-11e5-81a9-04fbddb9e488.png) 2. <a href="https://drive.google.com/file/d/0B9Ye2auQ_NsFT3VocUpKSzZlRTg">Сохранение результатов отправки в DB</a>
 #### Apply 7_2_HW6_mail_history.patch
-> Добавляем таблицу `mail_hist` уже через миграцию: просто после патча запускаем `config_templates\sql\lb_apply.bat`
+> Добавляем таблицу `mail_hist` через миграцию: после патча просто запускаем `config_templates\sql\lb_apply.bat`
 - <a href="http://stackoverflow.com/a/25322753/548473">Resolving Maven circular dependencies</a>
 - <a href="http://maven.apache.org/guides/mini/guide-attached-tests.html">Guide to using attached tests</a>
 
