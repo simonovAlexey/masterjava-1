@@ -48,9 +48,9 @@
 - <a href="http://stackoverflow.com/a/10601916/548473">Fix thread safe JAX-WS client call</a>
 ----------------
 
-## ![video](https://cloud.githubusercontent.com/assets/13649199/13672715/06dbc6ce-e6e7-11e5-81a9-04fbddb9e488.png) 8. Реализация массовой и групповой отправки почты. HW7
+## ![video](https://cloud.githubusercontent.com/assets/13649199/13672715/06dbc6ce-e6e7-11e5-81a9-04fbddb9e488.png) 8. [Реализация массовой и групповой отправки почты. HW7](https://drive.google.com/file/d/0B9Ye2auQ_NsFLWVfaEhFU1ctNjA)
 #### Apply 7_9_refactoring.patch
-#### Apply 7_10_refactoring.patch
+#### Apply 7_10_send_group_bulk.patch
 
 ## Домашнее задание
 - Расшарить wsdl для всех модей в `\apps\masterjava\config\wsdl`   
