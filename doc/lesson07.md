@@ -17,18 +17,18 @@
 - <a href="http://maven.apache.org/guides/mini/guide-attached-tests.html">Guide to using attached tests</a>
 
 ### ![video](https://cloud.githubusercontent.com/assets/13649199/13672715/06dbc6ce-e6e7-11e5-81a9-04fbddb9e488.png) 3. <a href="https://drive.google.com/file/d/0B9Ye2auQ_NsFbkNoM01TSno1bzA">Импорт Проектов и Групп</a>
-#### 7_3_HW6_ProjectGroupImporter.patch
-#### 7_4_HW6_refactor_UserImporter.patch
+#### Apply 7_3_HW6_ProjectGroupImporter.patch
+#### Apply 7_4_HW6_refactor_UserImporter.patch
 - Замечание в видео по поводу split: <a href="https://habrahabr.ru/post/326242/">Performance это праздник</a>
 <hr/>
 
 ## ![video](https://cloud.githubusercontent.com/assets/13649199/13672715/06dbc6ce-e6e7-11e5-81a9-04fbddb9e488.png) 4. <a href="https://drive.google.com/open?id=0B9Ye2auQ_NsFY2pwemVtYU1WU2M">Стили WSDL. Кастомизация WSDL</a>
-#### 7_5_customize_WSDL.patch
+#### Apply 7_5_customize_WSDL.patch
 - <a href="https://ru.wikipedia.org/wiki/SOAP">SOAP</a>
 - <a href="http://www.ibm.com/developerworks/webservices/library/ws-whichwsdl/">Стили WSDL</a>
 
 ## ![video](https://cloud.githubusercontent.com/assets/13649199/13672715/06dbc6ce-e6e7-11e5-81a9-04fbddb9e488.png) 5. <a href="https://drive.google.com/open?id=0B9Ye2auQ_NsFeV90cGNSU1hqelk">Публикация кастомизированного WSDL. Автогенерация.</a> 
-#### 7_6_publish_CustomizedWSDL.patch
+#### Apply 7_6_publish_CustomizedWSDL.patch
 - <a href="https://en.wikipedia.org/wiki/Apache_CXF">CXF</a>
    - <a href="https://youtrack.jetbrains.com/issue/IDEA-149473">IDEA bug of CXF integration</a>
    - <a href="http://stackoverflow.com/a/23012746/548473">accessExternalSchema property restriction</a>
@@ -37,19 +37,19 @@
    - <a href="https://wsit.java.net/">Web Services Interoperability Technologies (WSIT)</a>
 
 ## ![video](https://cloud.githubusercontent.com/assets/13649199/13672715/06dbc6ce-e6e7-11e5-81a9-04fbddb9e488.png) 6. <a href="https://drive.google.com/open?id=0B9Ye2auQ_NsFVDJVYmc4T25LQWs">Деплой в Tomcat</a>
-#### 7_7_deploy_Tomcat.patch
+#### Apply 7_7_deploy_Tomcat.patch
 - <a href="https://www.mkyong.com/tutorials/jax-ws-tutorials/">JAX-WS + Tomcat</a> 
 - <a href="https://www.mkyong.com/webservices/jax-ws/deploy-jax-ws-web-services-on-tomcat/">Deploy JAX-WS web services on Tomcat</a>
 - <a href="http://ics.upjs.sk/~novotnyr/blog/2068/deploying-jax-ws-services-on-java-7-and-tomcat-7">Deploying JAX-WS Services without web.xml</a>
 
 ## ![video](https://cloud.githubusercontent.com/assets/13649199/13672715/06dbc6ce-e6e7-11e5-81a9-04fbddb9e488.png) 7. <a href="https://drive.google.com/open?id=0B9Ye2auQ_NsFSW9sbkFpSDZOWk0">Создание клиента почтового сервиса.</a>
-#### 7_8_create_client.patch
+#### Apply 7_8_create_client.patch
 - <a href="http://stackoverflow.com/questions/5158537/jaxws-how-to-change-the-endpoint-address">Dynamically Change a Web Service Endpoint URL</a>
 - <a href="http://stackoverflow.com/a/10601916/548473">Fix thread safe JAX-WS client call</a>
 ----------------
 
 ## ![video](https://cloud.githubusercontent.com/assets/13649199/13672715/06dbc6ce-e6e7-11e5-81a9-04fbddb9e488.png) 8. TODO: Рефакторинг MailService. HW7
-#### 7_9_refactoring.patch
+#### Apply 7_9_refactoring.patch
 
 ## Домашнее задание
 - Расшарить wsdl для всех модей в `\apps\masterjava\config\wsdl`   
