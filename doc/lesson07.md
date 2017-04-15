@@ -48,8 +48,9 @@
 - <a href="http://stackoverflow.com/a/10601916/548473">Fix thread safe JAX-WS client call</a>
 ----------------
 
-## ![video](https://cloud.githubusercontent.com/assets/13649199/13672715/06dbc6ce-e6e7-11e5-81a9-04fbddb9e488.png) 8. TODO: Рефакторинг MailService. HW7
+## ![video](https://cloud.githubusercontent.com/assets/13649199/13672715/06dbc6ce-e6e7-11e5-81a9-04fbddb9e488.png) 8. Реализация индивидуальной и групповой отправки. HW7
 #### Apply 7_9_refactoring.patch
+#### Apply 7_10_refactoring.patch
 
 ## Домашнее задание
 - Расшарить wsdl для всех модей в `\apps\masterjava\config\wsdl`   
