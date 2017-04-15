@@ -79,7 +79,7 @@ http://www.liquibase.org/quickstart.html
 
 ----------------
 ## Домашнее задание
-- Реализовать `MailSender` с конфигурированием параметров (например чз yandex)  
+- Реализовать `MailSender` с конфигурированием параметров в `mail.conf`
    - <a href="https://commons.apache.org/proper/commons-email">Commons Email</a>
    - Параметры почты (yandex):
 ```
@@ -92,7 +92,8 @@ http://www.liquibase.org/quickstart.html
    mail.debug: true
    mail.fromName: MasterJava
 ```
-- Сохранят результат отправки писем в DB (в `MailSender`). DAO и модель для сохранения сделать в модуле `mail-service`
+- Сохранят результат отправки писем в DB (в `MailSender`). 
+- DAO и модель для сохранения сделать в модуле `mail-service`
 - Протестировать отправку почты через SoapUI и/или `MailServiceClient`
 
 #### Optional
