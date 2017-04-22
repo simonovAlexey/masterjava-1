@@ -12,7 +12,7 @@
 #### Apply 1_HW7_wsdl_share.patch
 ### ![video](https://cloud.githubusercontent.com/assets/13649199/13672715/06dbc6ce-e6e7-11e5-81a9-04fbddb9e488.png) 2. <a href="https://drive.google.com/open?id=0B9Ye2auQ_NsFelpFalNxQVBTc3c">Доступ к переменным maven в приложении</a>
 #### Apply 2_app_conf.patch
-### ![video](https://cloud.githubusercontent.com/assets/13649199/13672715/06dbc6ce-e6e7-11e5-81a9-04fbddb9e488.png) 3. TODO: Обновление WSDL
+### ![video](https://cloud.githubusercontent.com/assets/13649199/13672715/06dbc6ce-e6e7-11e5-81a9-04fbddb9e488.png) 3. [Обновление WSDL](https://drive.google.com/file/d/0B9Ye2auQ_NsFWDFRYm5uNlJlNmM)
 #### Apply 3_HW7_update_wsdl.patch
 ### ![video](https://cloud.githubusercontent.com/assets/13649199/13672715/06dbc6ce-e6e7-11e5-81a9-04fbddb9e488.png) 4. <a href="https://drive.google.com/open?id=0B9Ye2auQ_NsFWHdabmhJV2FUYzQ">Отправка почты из модуля `webapp`</a>
 #### Apply 4_HW7_webapp.patch
