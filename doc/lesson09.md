@@ -1,0 +1,44 @@
+# Онлайн проекта  <a href="https://github.com/JavaWebinar/masterjava">Masterjava</a>.
+
+## [Материалы занятия](https://drive.google.com/drive/u/0/folders/0B9Ye2auQ_NsFd3pjNWZpR0QzVWs) 
+
+## ![video](https://cloud.githubusercontent.com/assets/13649199/13672715/06dbc6ce-e6e7-11e5-81a9-04fbddb9e488.png) 1. [Добавление мавен плагинов](https://drive.google.com/open?id=0B9Ye2auQ_NsFYnhDWG03Z3R6Y0E)
+- [Copy Rename Maven Plugin](https://coderplus.github.io/copy-rename-maven-plugin/usage.html)
+- [Maven AntRun Plugin](http://maven.apache.org/plugins/maven-antrun-plugin/usage.html)
+- [Maven Liquibase Plugin](http://www.liquibase.org/documentation/maven/)
+
+## ![hw](https://cloud.githubusercontent.com/assets/13649199/13672719/09593080-e6e7-11e5-81d1-5cb629c438ca.png) Разбор домашнего задания HW8
+### ![video](https://cloud.githubusercontent.com/assets/13649199/13672715/06dbc6ce-e6e7-11e5-81a9-04fbddb9e488.png) 2. [Реализация вложений в веб-сервисе](https://drive.google.com/open?id=0B9Ye2auQ_NsFbER6Rjc4dHRGODA)
+- <a href="https://docs.oracle.com/cd/E14571_01/web.1111/e13734/mtom.htm">Binary Data Transmission Using MTOM/XOP</a> 
+- <a href="http://www.soapui.org/SOAP-and-WSDL/adding-headers-and-attachments.html">Тестирование вложений через SoapUi.</a>
+
+### ![video](https://cloud.githubusercontent.com/assets/13649199/13672715/06dbc6ce-e6e7-11e5-81a9-04fbddb9e488.png) 3. [Подключение MTOM](https://drive.google.com/open?id=0B9Ye2auQ_NsFeF8yWVBUbHd6Y0k)
+
+### ![video](https://cloud.githubusercontent.com/assets/13649199/13672715/06dbc6ce-e6e7-11e5-81a9-04fbddb9e488.png) 4. [Реализация загрузки вложений в модуле webapp](https://drive.google.com/open?id=0B9Ye2auQ_NsFaVhpMkZRV3lSUlU)
+> Реализовал загрузку вложения через Servlet 3 `@MultipartConfig`
+
+### ![video](https://cloud.githubusercontent.com/assets/13649199/13672715/06dbc6ce-e6e7-11e5-81a9-04fbddb9e488.png) 5. [Реализация вложений в почте](https://drive.google.com/open?id=0B9Ye2auQ_NsFQ0RZNktReWRoYjQ)
+
+---------------------
+
+##  ![video](https://cloud.githubusercontent.com/assets/13649199/13672715/06dbc6ce-e6e7-11e5-81a9-04fbddb9e488.png) 6. [JAX-WS Message Context. Авторизация](https://drive.google.com/open?id=0B9Ye2auQ_NsFSEdYZzR3OGxxLVk)
+- <a href="https://jax-ws.java.net/articles/MessageContext.html">Message Context in JAX-WS</a>
+- <a href="http://www.mkyong.com/webservices/jax-ws/application-authentication-with-jax-ws/">Application Authentication with JAX-WS</a>
+  - <a href="http://examples.javacodegeeks.com/enterprise-java/jws/container-authentication-with-jax-ws/">Container Authentication</a>
+
+#### Асинхронный вызов через <a href="https://examples.javacodegeeks.com/enterprise-java/jws/jax-ws-annotations-example/#1_8">@OneWay </a>
+
+## ![video](https://cloud.githubusercontent.com/assets/13649199/13672715/06dbc6ce-e6e7-11e5-81a9-04fbddb9e488.png) 7. [JAX-WS Handlers](https://drive.google.com/open?id=0B9Ye2auQ_NsFYjhDUGM2N0tHVDg)
+
+- <a href="https://jax-ws.java.net/articles/handlers_introduction.html">Handlers in JAX-WS</a>
+  - <a href="https://www.mkyong.com/webservices/jax-ws/jax-ws-soap-handler-in-server-side/">SOAP handler sample</a>
+  - <a href="http://www.javaworld.com/article/2077679/soa/get-a-handle-on-the-jax-ws-api-s-handler-framework.html">Message Context</a>  
+  - Логирование SOAP на стороне клиента и сервера
+  
+
+## ![video](https://cloud.githubusercontent.com/assets/13649199/13672715/06dbc6ce-e6e7-11e5-81a9-04fbddb9e488.png) 8. [Домашнее задание. Статистика](https://drive.google.com/open?id=0B9Ye2auQ_NsFWGI0ejBZZ21Cc0k)
+  - Сделать Handler статистики трафика веб-сервиса
+  - Сделать авторизацию в `mailService` через `SoapServerSecurityHandler` 
+
+#### Optional
+  - Вынести уровень логирования веб-сервисов и креденшелы авторизации в конфигурацию
