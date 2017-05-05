@@ -27,8 +27,9 @@
 ## ![video](https://cloud.githubusercontent.com/assets/13649199/13672715/06dbc6ce-e6e7-11e5-81a9-04fbddb9e488.png) 4. [JAX-RS](https://drive.google.com/file/d/0B9Ye2auQ_NsFeWQxTUVBSDFGMGM)
 #### Apply 10_3_JAX_RS.patch
 #### Apply 10_4_jersey_logging.patch
-- [JAX-RS Test URL](http://localhost:8080/mail/rest/test)
-- [JAX-RS Detail WADL URL](http://localhost:8080/mail/rest/application.wadl?detail=true)
+> - [JAX-RS Test URL](http://localhost:8080/mail/rest/test)
+> - [JAX-RS Detail WADL URL](http://localhost:8080/mail/rest/application.wadl?detail=true)
+
 - <a href="https://jersey.java.net/">Jersey: RESTful Web Services in Java</a>
 - <a href="https://jersey.java.net/documentation/latest/modules-and-dependencies.html">Modules and dependencies</a>
 - <a href="http://howtodoinjava.com/jersey/jersey-2-hello-world-application-tutorial/">Example with web.xml</a>
