@@ -27,6 +27,7 @@
 #### 5_6_lombook.patch
 - Подключаем <a href="https://habrahabr.ru/post/142356/">Lombok</a>
 - <a href="https://urvanov.ru/2015/09/22/project-lombok/">Фичи Lombook</a>
+- [Ten More Ways to Reduce Boilerplate with Lombok](https://www.sitepoint.com/beyond-pojos-ten-ways-reduce-boilerplate-lombok/)
 - <a href="https://github.com/mplushnikov/lombok-intellij-plugin">Подключение к IDEA</a>
 - <a href="http://stackoverflow.com/questions/3852091/is-it-safe-to-use-project-lombok">Drawbacks</a>, <a href="http://stackoverflow.com/a/29771875/548473">Call super constructor</a>
 - <a href="https://www.sitepoint.com/declutter-pojos-with-lombok-tutorial/">Declutter Your POJOs with Lombok</a>
