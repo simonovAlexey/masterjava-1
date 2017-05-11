@@ -64,7 +64,7 @@
    
 ## Домашнее задание
 - Добавить аттачи в JAX-RS
-  - <a href="http://www.mkyong.com/webservices/jax-rs/file-upload-example-in-jersey">File upload example in Jersey</a>
+  - <a href="http://stackoverflow.com/questions/22837257/how-to-write-jersey-multipart-webapp-tomcat-server">Jersey Multipart on Tomcat</a>
 
 #### Optional
 - Реализовать отсылку почты через JMS `ObjectMessage`
