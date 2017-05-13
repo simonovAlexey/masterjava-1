@@ -7,7 +7,7 @@
 
 ## ![hw](https://cloud.githubusercontent.com/assets/13649199/13672719/09593080-e6e7-11e5-81d1-5cb629c438ca.png) Разбор домашнего задания HW5
 
-### ![video](https://cloud.githubusercontent.com/assets/13649199/13672715/06dbc6ce-e6e7-11e5-81a9-04fbddb9e488.png) 1. [Реализация модели/DAO/JUnit]((https://drive.google.com/drive/u/0/folders/0B9Ye2auQ_NsFVEJBS3VzVnBtMnc)
+### ![video](https://cloud.githubusercontent.com/assets/13649199/13672715/06dbc6ce-e6e7-11e5-81a9-04fbddb9e488.png) 1. [Реализация модели/DAO/JUnit](https://drive.google.com/drive/u/0/folders/0B9Ye2auQ_NsFVEJBS3VzVnBtMnc)
 #### Apply 6_1_HW5_model_sql.patch
 - [Liquibase](http://www.liquibase.org/)
   - [Downloads](http://www.liquibase.org/download/index.html)
