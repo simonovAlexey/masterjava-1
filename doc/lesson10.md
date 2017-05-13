@@ -66,7 +66,7 @@
 - Добавить аттачи в JAX-RS
   - [File upload example in Jersey](http://www.mkyong.com/webservices/jax-rs/file-upload-example-in-jersey) **НЕ РАБОТАЕТ!**
   - <a href="http://stackoverflow.com/questions/22837257/how-to-write-jersey-multipart-webapp-tomcat-server">Jersey Multipart on Tomcat</a> (вложения приходят, но пустые или обрезанные)
-  - Реализовать отсылку почты через JMS `ObjectMessage`
+- Реализовать отсылку почты через JMS `ObjectMessage`
 
 #### Optional
   - Починить вложения в JAX-RS (javax.mail читает поток из вложения 2 раза)
