@@ -39,6 +39,7 @@
 
 #### [5_8_fix_share_ThymeleafListener.patch](https://drive.google.com/open?id=0B9Ye2auQ_NsFY19DYWFnUGN4TEE)
 Расшарил ThymeleafListener в common-web и использую в webapp `UsersServlet`
+- [thread-safe TemplateEngine.process](http://stackoverflow.com/a/23007118/548473)
 
 ## Домашнее задание
 - добавить в DB и сделать DAO для городов, групп и проектов (города и группы как - forign keys)
