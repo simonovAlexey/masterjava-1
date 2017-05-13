@@ -16,7 +16,7 @@
 
 - <a href="https://github.com/typesafehub/config#how-to-handle-defaults">Handle defaults in config</a>
 
-## ![video](https://cloud.githubusercontent.com/assets/13649199/13672715/06dbc6ce-e6e7-11e5-81a9-04fbddb9e488.png) 3. [Авторизация в контейнере Tomcat]()
+## ![video](https://cloud.githubusercontent.com/assets/13649199/13672715/06dbc6ce-e6e7-11e5-81a9-04fbddb9e488.png) 3. [Авторизация в контейнере Tomcat](https://drive.google.com/file/d/0B9Ye2auQ_NsFcU1FU3FTQ25NNzA)
 - [Realm Configuration HOW-TO](http://tomcat.apache.org/tomcat-8.0-doc/realm-howto.html)
 - [Setup your own Tomcat security realm](http://www.christianschenk.org/blog/setup-your-own-tomcat-security-realm/)
 
