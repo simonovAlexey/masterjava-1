@@ -18,15 +18,15 @@
 #### Apply 11_2_HW10_JMS_attach.patch
 #### Apply 11_3_HW10_JMS_attach_fix
 > Сделал отправку через JMS листа аттачей
-- [Pair(tuple) in Java](http://stackoverflow.com/questions/521171/a-java-collection-of-value-pairs-tuples) 
+- [Pair (tuple) in Java](http://stackoverflow.com/questions/521171/a-java-collection-of-value-pairs-tuples) 
 ---------------------------------------
 #### ![video](https://cloud.githubusercontent.com/assets/13649199/13672715/06dbc6ce-e6e7-11e5-81a9-04fbddb9e488.png)  [Николай Алименков - Нужен ли нам JMS в мире современных Java-технологий?](http://bekeriya.com/watch?v=RVwXdCfzJZA)
 
 ## Рефакторинг. Эксепшены в Java 8 лямбда
 #### Apply 11_4_refactoring.patch
-- [The (missing) Try monad](https://dzone.com/articles/whats-wrong-java-8-part-iv)
-- [Java 8 Lambda function that throws exception](http://stackoverflow.com/questions/18198176/java-8-lambda-function-that-throws-exception)
-- [Durian](https://github.com/diffplug/durian) ([Дуриан](https://ru.wikipedia.org/wiki/Дуриан))
+- [Java 8 Lambda with exception](http://stackoverflow.com/questions/18198176/java-8-lambda-function-that-throws-exception)
+- [What's Wrong in Java 8](https://dzone.com/articles/whats-wrong-java-8-part-iv)
+- [Durian](https://github.com/diffplug/durian) ( [Дуриан](https://ru.wikipedia.org/wiki/Дуриан) )
 
 ## [Concurrent and distributed applications toolkit AKKA](http://akka.io/)
 #### Apply 11_5_akka.patch
@@ -44,7 +44,7 @@
      - [Spring Async support](https://spring.io/blog/2012/05/07/spring-mvc-3-2-preview-introducing-servlet-3-async-support)
      - [Asynchronous with JAX-RS](http://allegro.tech/2014/10/async-rest.html)
    - [Serialization](http://doc.akka.io/docs/akka/current/scala/serialization.html)
-   - [Currying vs partial application](http://stackoverflow.com/a/23438430/548473)
+   - [Currying vs Partial application](http://stackoverflow.com/a/23438430/548473)
 
 #### Apply 11_7_akka_actor.patch
    - [Actors](http://doc.akka.io/docs/akka/current/java/actors.html)
