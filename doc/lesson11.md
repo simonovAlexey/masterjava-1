@@ -21,7 +21,6 @@
 - [Pair(tuple) in Java](http://stackoverflow.com/questions/521171/a-java-collection-of-value-pairs-tuples) 
 ---------------------------------------
 #### ![video](https://cloud.githubusercontent.com/assets/13649199/13672715/06dbc6ce-e6e7-11e5-81a9-04fbddb9e488.png)  [Николай Алименков - Нужен ли нам JMS в мире современных Java-технологий?](http://bekeriya.com/watch?v=RVwXdCfzJZA)
-- <a href="http://tomcat.apache.org/tomcat-7.0-doc/config/executor.html">Apache Tomcat Executor</a></li>
 
 ## Рефакторинг. Эксепшены в Java 8 лямбда
 #### Apply 11_4_refactoring.patch
