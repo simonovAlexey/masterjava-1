@@ -29,6 +29,8 @@
 - [Durian](https://github.com/diffplug/durian) ( [Дуриан](https://ru.wikipedia.org/wiki/Дуриан) )
 
 ## [Concurrent and distributed applications toolkit AKKA](http://akka.io/)
+> #### Внимание! Перед накаткой патчеа создайте в `services` каталог `akka-remote` (`services/akka-remote`) иначе файлы придется руками сюда перетаскивать.
+
 #### Apply 11_5_akka.patch
 
 - [Docs](http://akka.io/docs/)
