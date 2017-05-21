@@ -29,9 +29,10 @@
 > #### Дополнительно:
 > #### ![video](https://cloud.githubusercontent.com/assets/13649199/13672715/06dbc6ce-e6e7-11e5-81a9-04fbddb9e488.png)  [Николай Алименков - Нужен ли нам JMS в мире современных Java-технологий?](http://bekeriya.com/watch?v=RVwXdCfzJZA)
 
-## [Concurrent and distributed applications toolkit AKKA]()
+## ![video](https://cloud.githubusercontent.com/assets/13649199/13672715/06dbc6ce-e6e7-11e5-81a9-04fbddb9e488.png) 4. [Concurrent and distributed applications toolkit AKKA](https://drive.google.com/open?id=0B9Ye2auQ_NsFR0tjc28tRzVHQVk)
 > #### Внимание! Перед накаткой патчеа создайте в `services` каталог `akka-remote` (`services/akka-remote`) иначе файлы придется руками сюда перетаскивать.
-
+> После патча скопируйте `akka.conf` в `${masterjava.config} (/apps/masterjava/config)` 
+ 
 #### Apply 11_5_akka.patch
 - [Wiki Akka (toolkit)](https://en.wikipedia.org/wiki/Akka_(toolkit))
 - [Модель акторов](https://ru.wikipedia.org/wiki/Модель_акторов)
@@ -39,6 +40,7 @@
    - [Remoting](http://doc.akka.io/docs/akka/current/scala/remoting.html)
    - [Remoting Sample](http://doc.akka.io/docs/akka/current/java/remoting.html#Remoting_Sample)
    - [Tutorials](http://akka.io/downloads/)
+   - [Get started with Lightbend technologies](https://developer.lightbend.com/start)
 
 #### Apply 11_6_akka_typed.patch
 
