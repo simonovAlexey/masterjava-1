@@ -16,13 +16,14 @@
 - [Недостатки ObjectMessage (или недостатки сериализации Java)]( http://jmesnil.net/weblog/2012/07/27/on-jms-objectmessage-and-its-pitfalls)
 
 #### Apply 11_2_HW10_JMS_attach.patch
-#### Apply 11_3_HW10_JMS_attach_fix
-> Сделал отправку через JMS листа аттачей
-- [Pair (tuple) in Java](http://stackoverflow.com/questions/521171/a-java-collection-of-value-pairs-tuples) 
 ---------------------------------------
 #### ![video](https://cloud.githubusercontent.com/assets/13649199/13672715/06dbc6ce-e6e7-11e5-81a9-04fbddb9e488.png)  [Николай Алименков - Нужен ли нам JMS в мире современных Java-технологий?](http://bekeriya.com/watch?v=RVwXdCfzJZA)
 
 ## Рефакторинг. Эксепшены в Java 8 лямбда
+#### Apply 11_3_HW10_JMS_attach_fix
+> Отправку по JMS листа аттачей
+- [Pair (tuple) in Java](http://stackoverflow.com/questions/521171/a-java-collection-of-value-pairs-tuples) 
+
 #### Apply 11_4_refactoring.patch
 - [Java 8 Lambda with exception](http://stackoverflow.com/questions/18198176/java-8-lambda-function-that-throws-exception)
 - [What's Wrong in Java 8](https://dzone.com/articles/whats-wrong-java-8-part-iv)
