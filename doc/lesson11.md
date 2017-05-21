@@ -35,11 +35,10 @@
 #### Apply 11_5_akka.patch
 - [Wiki Akka (toolkit)](https://en.wikipedia.org/wiki/Akka_(toolkit))
 - [Модель акторов](https://ru.wikipedia.org/wiki/Модель_акторов)
-   - [Docs](http://akka.io/docs/)
+- [Видео: Akka и его использование в Яндексе](http://2014.jpoint.ru/talks/07/)
    - [Remoting](http://doc.akka.io/docs/akka/current/scala/remoting.html)
    - [Remoting Sample](http://doc.akka.io/docs/akka/current/java/remoting.html#Remoting_Sample)
    - [Tutorials](http://akka.io/downloads/)
-   - [Видео: Akka и его использование в Яндексе](http://2014.jpoint.ru/talks/07/)
 
 #### Apply 11_6_akka_typed.patch
 
