@@ -47,7 +47,7 @@
      - [Asynchronous with JAX-RS](http://allegro.tech/2014/10/async-rest.html)
    - [Serialization](http://doc.akka.io/docs/akka/current/scala/serialization.html)
    - [Currying vs Partial application](http://stackoverflow.com/a/23438430/548473)
-   - [scala dependency injection (di)](http://jonasboner.com/real-world-scala-dependency-injection-di)
+   - [Scala dependency injection (di)](http://jonasboner.com/real-world-scala-dependency-injection-di)
 
 #### Apply 11_7_akka_actor.patch
    - [Actors](http://doc.akka.io/docs/akka/current/java/actors.html)
