@@ -41,6 +41,7 @@
    - [Remoting Sample](http://doc.akka.io/docs/akka/current/java/remoting.html#Remoting_Sample)
    - [Tutorials](http://akka.io/downloads/)
    - [Get started with Lightbend technologies](https://developer.lightbend.com/start)
+   - [Typesafe Changes Name to Lightbend](https://www.lightbend.com/blog/typesafe-changes-name-to-lightbend)
 
 #### Apply 11_6_akka_typed.patch
 
@@ -48,8 +49,8 @@
      - [Spring Asynchronous Methods](https://spring.io/guides/gs/async-method)
      - [Spring Async support](https://spring.io/blog/2012/05/07/spring-mvc-3-2-preview-introducing-servlet-3-async-support)
      - [Asynchronous with JAX-RS](http://allegro.tech/2014/10/async-rest.html)
+   - [Currying vs Partial application](https://stackoverflow.com/a/218055/548473)
    - [Serialization](http://doc.akka.io/docs/akka/current/scala/serialization.html)
-   - [Currying vs Partial application](http://stackoverflow.com/a/23438430/548473)
    - [Scala dependency injection (di)](http://jonasboner.com/real-world-scala-dependency-injection-di)
 
 #### Apply 11_7_akka_actor.patch
@@ -68,3 +69,4 @@
 ## Выбор языка программирования
 - [Когда появится следующий большой язык программирования](https://habrahabr.ru/company/wrike/blog/323550)
 - [Как я нашел лучший в мире язык программирования](https://habrahabr.ru/post/260149/)
+- [Котлин рулит](https://habrahabr.ru/company/JetBrains/blog/329028/)
