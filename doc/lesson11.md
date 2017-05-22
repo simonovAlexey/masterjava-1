@@ -43,6 +43,7 @@
    - [Get started with Lightbend technologies](https://developer.lightbend.com/start)
    - [Typesafe Changes Name to Lightbend](https://www.lightbend.com/blog/typesafe-changes-name-to-lightbend)
 
+## ![video](https://cloud.githubusercontent.com/assets/13649199/13672715/06dbc6ce-e6e7-11e5-81a9-04fbddb9e488.png) 5. [Typed Actors](https://drive.google.com/open?id=0B9Ye2auQ_NsFS1pNeW1qaDJoVkk)
 #### Apply 11_6_akka_typed.patch
 
    - [Typed Actors](http://doc.akka.io/docs/akka/current/java/typed-actors.html)
@@ -51,7 +52,6 @@
      - [Asynchronous with JAX-RS](http://allegro.tech/2014/10/async-rest.html)
    - [Currying vs Partial application](https://stackoverflow.com/a/218055/548473)
    - [Serialization](http://doc.akka.io/docs/akka/current/scala/serialization.html)
-   - [Scala dependency injection (di)](http://jonasboner.com/real-world-scala-dependency-injection-di)
 
 #### Apply 11_7_akka_actor.patch
    - [Actors](http://doc.akka.io/docs/akka/current/java/actors.html)
@@ -67,6 +67,7 @@
    - `AkkaActorSendServlet` с выполнением в собственном `ExecutorService`  
 
 ## Выбор языка программирования
+- [Scala dependency injection (di)](http://jonasboner.com/real-world-scala-dependency-injection-di)
 - [Когда появится следующий большой язык программирования](https://habrahabr.ru/company/wrike/blog/323550)
 - [Как я нашел лучший в мире язык программирования](https://habrahabr.ru/post/260149/)
 - [Котлин рулит](https://habrahabr.ru/company/JetBrains/blog/329028/)
