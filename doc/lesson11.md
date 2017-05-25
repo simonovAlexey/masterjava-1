@@ -43,7 +43,7 @@
    - [Get started with Lightbend technologies](https://developer.lightbend.com/start)
    - [Typesafe Changes Name to Lightbend](https://www.lightbend.com/blog/typesafe-changes-name-to-lightbend)
 
-## ![video](https://cloud.githubusercontent.com/assets/13649199/13672715/06dbc6ce-e6e7-11e5-81a9-04fbddb9e488.png) 5. [Typed Actors](https://drive.google.com/open?id=0B9Ye2auQ_NsFS1pNeW1qaDJoVkk)
+## ![video](https://cloud.githubusercontent.com/assets/13649199/13672715/06dbc6ce-e6e7-11e5-81a9-04fbddb9e488.png) 5. [Actors](https://drive.google.com/file/d/0B9Ye2auQ_NsFQWppSmxRYnVKX3M)
 #### Apply 11_6_akka_typed.patch
 
    - [Typed Actors](http://doc.akka.io/docs/akka/current/java/typed-actors.html)
