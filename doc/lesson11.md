@@ -67,7 +67,10 @@
    - `AkkaTypedSendServlet` с выполнением в Tomcat `ThreadPoolExecutor` 
    - `AkkaActorSendServlet` с выполнением в собственном `ExecutorService`  
 
-## Выбор языка программирования
+##  ![video](https://cloud.githubusercontent.com/assets/13649199/13672715/06dbc6ce-e6e7-11e5-81a9-04fbddb9e488.png) 7. [Разбор решения с асинхронными сервлетами](https://drive.google.com/open?id=0B9Ye2auQ_NsFTWk1VS1GV1ROY0U)
+#### Apply 11_8_async_servlet.patch
+
+## ![video](https://cloud.githubusercontent.com/assets/13649199/13672715/06dbc6ce-e6e7-11e5-81a9-04fbddb9e488.png) 8. [Выбор языка программирования](https://drive.google.com/file/d/0B9Ye2auQ_NsFZUVNakNxeUtGeFE)
 - [Scala dependency injection (di)](http://jonasboner.com/real-world-scala-dependency-injection-di)
 - [Когда появится следующий большой язык программирования](https://habrahabr.ru/company/wrike/blog/323550)
 - [Как я нашел лучший в мире язык программирования](https://habrahabr.ru/post/260149/)
