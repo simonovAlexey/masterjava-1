@@ -71,3 +71,4 @@
 - [Когда появится следующий большой язык программирования](https://habrahabr.ru/company/wrike/blog/323550)
 - [Как я нашел лучший в мире язык программирования](https://habrahabr.ru/post/260149/)
 - [Котлин рулит](https://habrahabr.ru/company/JetBrains/blog/329028/)
+- [Почему следует полностью переходить на Kotlin](https://habrahabr.ru/company/mailru/blog/329294)
