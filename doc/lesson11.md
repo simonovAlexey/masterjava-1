@@ -56,7 +56,7 @@
 #### Apply 11_7_akka_actor.patch
    - [Actors](http://doc.akka.io/docs/akka/current/java/actors.html)
 
-## [Асинхронные сервлеты 3.0](https://drive.google.com/open?id=0B9Ye2auQ_NsFV2I2TndUT0kzT2s)
+##  ![video](https://cloud.githubusercontent.com/assets/13649199/13672715/06dbc6ce-e6e7-11e5-81a9-04fbddb9e488.png) 6. [Асинхронные сервлеты 3.0](https://drive.google.com/open?id=0B9Ye2auQ_NsFV2I2TndUT0kzT2s)
 - [Tomcat 7 Async Processing](http://stackoverflow.com/questions/7287244/tomcat-7-async-processing)
 - [Async in Servlet 3.0 vs NIO in Servlet 3.1](http://stackoverflow.com/questions/39802643/java-async-in-servlet-3-0-vs-nio-in-servlet-3-1)
 - [AsyncContext.start in Servlet 3.0](https://stackoverflow.com/questions/10073392/whats-the-purpose-of-asynccontext-start-in-servlet-3-0)
