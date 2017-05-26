@@ -59,7 +59,7 @@
 ## Асинхронные сервлеты 3.0
 - [Tomcat 7 Async Processing](http://stackoverflow.com/questions/7287244/tomcat-7-async-processing)
 - [Async in Servlet 3.0 vs NIO in Servlet 3.1](http://stackoverflow.com/questions/39802643/java-async-in-servlet-3-0-vs-nio-in-servlet-3-1)
-- [AsyncContext.start() in Servlet 3.0](http://stackoverflow.com/questions/10073392/whats-the-purpose-of-asynccontext-start-in-servlet-3-0)
+- [The Limited Usefulness of AsyncContext.start()](https://dzone.com/articles/limited-usefulness)
 
 ## Домашнее задание
 -  Сделать асинхронное ожидание и вывод результатов отправки почты пользователю в сервлетах:
