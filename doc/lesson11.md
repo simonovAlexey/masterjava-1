@@ -76,4 +76,5 @@
 - [Как я нашел лучший в мире язык программирования](https://habrahabr.ru/post/260149/)
 - [Котлин рулит](https://habrahabr.ru/company/JetBrains/blog/329028/)
    - [Почему следует полностью переходить на Kotlin](https://habrahabr.ru/company/mailru/blog/329294)
-   - [Бесплатный Stepik курс Kotlin](https://stepik.org/course/Kotlin-2852)
+   - [Stepik: Бесплатный Stepik курс Kotlin](https://stepik.org/course/Kotlin-2852)
+   - [Devcolibri: Базовый курс по Kotlin](https://www.youtube.com/playlist?list=PLIU76b8Cjem4ZOt3tlWykUX1AjL9zE19t)
