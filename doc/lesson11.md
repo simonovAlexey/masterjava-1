@@ -53,6 +53,9 @@
    - [Currying vs Partial application](https://stackoverflow.com/a/218055/548473)
    - [Serialization](http://doc.akka.io/docs/akka/current/scala/serialization.html)
 
+**При задержке выполнения актора более чем на 5 сек будет вываливаться `AskTimeoutException: Timed out`**
+#### Apply 11_6_2_fix_add_timeout.patch
+
 #### Apply 11_7_akka_actor.patch
    - [Actors](http://doc.akka.io/docs/akka/current/java/actors.html)
 
