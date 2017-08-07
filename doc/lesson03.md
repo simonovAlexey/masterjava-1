@@ -31,7 +31,7 @@
 - <a href="https://greenbytes.de/tech/tc/xslt/">Test Cases for XSLT support in browsers</a>  
 
 #### 3_4_2_fix_add_namespace_in_xsl.patch
-- Добавил явный namespace. Про создании xPath IDEA начала делать автодополнение 
+- Добавил явный namespace. Теперь при создании xPath IDEA делает автодополнения
 
 ## Затяние 3
 ### ![video](https://cloud.githubusercontent.com/assets/13649199/13672715/06dbc6ce-e6e7-11e5-81a9-04fbddb9e488.png) 4. [Обзор Guava](https://drive.google.com/open?id=0B9Ye2auQ_NsFeFB5a29JQ2tRNHM)
