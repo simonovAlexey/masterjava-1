@@ -40,10 +40,12 @@
 
 ### ![video](https://cloud.githubusercontent.com/assets/13649199/13672715/06dbc6ce-e6e7-11e5-81a9-04fbddb9e488.png) 4. <a href="https://drive.google.com/open?id=0B9Ye2auQ_NsFM0hGNnVCMHN5YTg">JAXB, JAXP</a>
 #### 2_7_JAXB.patch
-
 > - Добавил в `maven-surefire-plugin` UTF-8
 > - Сделал загрузку ресурсов <a href="https://google.github.io/guava/releases/snapshot/api/docs/com/google/common/io/Resources.html#getResource(java.lang.String)">используя context class loader</a>
 >   - <a href="http://stackoverflow.com/questions/676250/different-ways-of-loading-a-file-as-an-inputstream#676273">Different ways of loading a file as an InputStream</a>
+
+#### 2_07_fix.patch
+> Убрал лишний `synchronized`  в `JaxbParser.marshal()` (уже есть в `JaxbMarshaller.marshal()`)
 
 - <a href="http://www.vogella.com/tutorials/JavaXML/article.html">Работа с XML в Java</a>.
 - <a href="https://ru.wikipedia.org/wiki/Document_Object_Model">DOM</a>, <a href="https://ru.wikipedia.org/wiki/SAX">SAX</a>
