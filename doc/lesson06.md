@@ -1,7 +1,5 @@
 # Онлайн проекта  <a href="https://github.com/JavaWebinar/masterjava">Masterjava</a>.
 
-## **Внимание!! Обновите проект или [накатите 2 fix-а (5_7_fix и 5_8_fix_share_ThymeleafListener) прошлого урока](https://github.com/JavaWebinar/masterjava/blob/doc/doc/lesson05.md#-Правки)**
-
 ## [Материалы занятия (скачать все патчи можно через Download папки patch)](https://drive.google.com/drive/u/0/folders/0B9Ye2auQ_NsFVEJBS3VzVnBtMnc) 
 
 
@@ -25,7 +23,8 @@
 >   - `UserExport -> UserImporter` 
 
 #### Apply 6_3_HW5_add_PayloadImporter.patch
-#### Apply 6_4_HW5_add_CityImporter.patch
+#### Apply 6_4_HW5_NEW_add_CityImporter.patch
+**!! Внимание, берите патч NEW, который использует `StaxStreamProcessor.ElementProcessor`**
 
 ----------------
 
