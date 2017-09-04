@@ -11,7 +11,6 @@ import ru.javaops.masterjava.persist.model.Project;
 import ru.javaops.masterjava.xml.util.StaxStreamProcessor;
 
 import javax.xml.stream.XMLStreamException;
-import javax.xml.stream.events.XMLEvent;
 import java.util.ArrayList;
 import java.util.Map;
 
@@ -23,26 +22,24 @@ public class ProjectGroupImporter {
     public Map<String, Group> process(StaxStreamProcessor processor) throws XMLStreamException {
         val projectMap = projectDao.getAsMap();
         val groupMap = groupDao.getAsMap();
-        String element;
 
         val newGroups = new ArrayList<Group>();
-        Project project = null;
-        while ((element = processor.doUntilAny(XMLEvent.START_ELEMENT, "Project", "Group", "Cities")) != null) {
-            if (element.equals("Cities")) break;
-            if (element.equals("Project")) {
-                val name = processor.getAttribute("name");
-                val description = processor.getElementValue("description");
-                project = projectMap.get(name);
-                if (project == null) {
-                    project = new Project(name, description);
-                    log.info("Insert project " + project);
-                    projectDao.insert(project);
-                }
-            } else {
-                val name = processor.getAttribute("name");
-                if (!groupMap.containsKey(name)) {
-                    // project here already assigned, as it located in xml before Group
-                    newGroups.add(new Group(name, GroupType.valueOf(processor.getAttribute("type")), project.getId()));
+
+        StaxStreamProcessor.ElementProcessor projectProcessor = processor.elementProcessor("Project", "Projects");
+        StaxStreamProcessor.ElementProcessor groupProcessor = processor.elementProcessor("Group", "Project");
+        while (projectProcessor.start()) {
+            val pName = processor.getAttribute("name");
+            val description = processor.getElementValue("description");
+            Project project = projectMap.get(pName);
+            if (project == null) {
+                project = new Project(pName, description);
+                log.info("Insert project " + project);
+                projectDao.insert(project);
+            }
+            while (groupProcessor.start()) {
+                val gName = processor.getAttribute("name");
+                if (!groupMap.containsKey(gName)) {
+                    newGroups.add(new Group(gName, GroupType.valueOf(processor.getAttribute("type")), project.getId()));
                 }
             }
         }

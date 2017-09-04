@@ -6,6 +6,8 @@ import javax.xml.stream.XMLStreamReader;
 import javax.xml.stream.events.XMLEvent;
 import java.io.InputStream;
 
+import static com.google.common.base.Preconditions.checkNotNull;
+
 /**
  * gkislin
  * 23.09.2016
@@ -15,8 +17,44 @@ public class StaxStreamProcessor implements AutoCloseable {
 
     private final XMLStreamReader reader;
 
+    public class ElementProcessor {
+        private final String element;
+        private final String parent;
+
+        public ElementProcessor(String element, String parent) {
+            this.element = element;
+            this.parent = parent;
+        }
+
+        public boolean start() throws XMLStreamException {
+            while (reader.hasNext()) {
+                int event = reader.next();
+                if (parent != null && isElementEnd(event, parent)) {
+                    return false;
+                }
+                if (isElementStart(event, element)) {
+                    return true;
+                }
+            }
+            return false;
+        }
+    }
+
     public StaxStreamProcessor(InputStream is) throws XMLStreamException {
         reader = FACTORY.createXMLStreamReader(is);
+    }
+
+    public ElementProcessor elementProcessor(String element, String parent) {
+        checkNotNull(element);
+        return new ElementProcessor(element, parent);
+    }
+
+    private boolean isElementStart(int event, String el) {
+        return event == XMLEvent.START_ELEMENT && el.equals(reader.getLocalName());
+    }
+
+    private boolean isElementEnd(int event, String el) {
+        return event == XMLEvent.END_ELEMENT && el.equals(reader.getLocalName());
     }
 
     public XMLStreamReader getReader() {
@@ -24,26 +62,17 @@ public class StaxStreamProcessor implements AutoCloseable {
     }
 
     public boolean doUntil(int stopEvent, String value) throws XMLStreamException {
-        return doUntilAny(stopEvent, value) != null;
+        while (reader.hasNext()) {
+            int event = reader.next();
+            if (event == stopEvent && value.equals(getValue(event))) {
+                return true;
+            }
+        }
+        return false;
     }
 
     public String getAttribute(String name) throws XMLStreamException {
         return reader.getAttributeValue(null, name);
-    }
-
-    public String doUntilAny(int stopEvent, String... values) throws XMLStreamException {
-        while (reader.hasNext()) {
-            int event = reader.next();
-            if (event == stopEvent) {
-                String xmlValue = getValue(event);
-                for (String value : values) {
-                    if (value.equals(xmlValue)) {
-                        return xmlValue;
-                    }
-                }
-            }
-        }
-        return null;
     }
 
     public String getValue(int event) throws XMLStreamException {

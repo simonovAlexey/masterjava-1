@@ -13,7 +13,6 @@ import ru.javaops.masterjava.xml.util.Schemas;
 import ru.javaops.masterjava.xml.util.StaxStreamProcessor;
 import ru.javaops.masterjava.xml.util.XsltProcessor;
 
-import javax.xml.stream.events.XMLEvent;
 import java.io.InputStream;
 import java.io.Writer;
 import java.net.URL;
@@ -84,20 +83,17 @@ public class MainXml {
             StaxStreamProcessor processor = new StaxStreamProcessor(is);
             final Set<String> groupNames = new HashSet<>();
 
-            // Projects loop
-            projects:
-            while (processor.doUntil(XMLEvent.START_ELEMENT, "Project")) {
+            StaxStreamProcessor.ElementProcessor projectProcessor = processor.elementProcessor("Project", "Projects");
+            while (projectProcessor.start()) {
                 if (projectName.equals(processor.getAttribute("name"))) {
-                    // Groups loop
-                    String element;
-                    while ((element = processor.doUntilAny(XMLEvent.START_ELEMENT, "Project", "Group", "Users")) != null) {
-                        if (!element.equals("Group")) {
-                            break projects;
-                        }
+                    StaxStreamProcessor.ElementProcessor groupProcessor = processor.elementProcessor("Group", "Project");
+                    while (groupProcessor.start()) {
                         groupNames.add(processor.getAttribute("name"));
                     }
+                    break;
                 }
             }
+
             if (groupNames.isEmpty()) {
                 throw new IllegalArgumentException("Invalid " + projectName + " or no groups");
             }
@@ -105,7 +101,8 @@ public class MainXml {
             // Users loop
             Set<User> users = new TreeSet<>(USER_COMPARATOR);
 
-            while (processor.doUntil(XMLEvent.START_ELEMENT, "User")) {
+            StaxStreamProcessor.ElementProcessor userProcessor = processor.elementProcessor("User", null);
+            while (userProcessor.start()) {
                 String groupRefs = processor.getAttribute("groupRefs");
                 if (!Collections.disjoint(groupNames, Splitter.on(' ').splitToList(nullToEmpty(groupRefs)))) {
                     User user = new User();
